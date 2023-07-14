@@ -37,7 +37,7 @@ Esta es una aplicación de chatbot basada en WhatsApp desarrollada con Nest.js y
 ## Instalación
 
 1. Clona el repositorio: git clone 
-  https://nicoriver9/NESTJS-Whatsapp-Telegram-Bot
+  https://github.com/nicoriver9/NESTJS-Whatsapp-Telegram-Bot.git
 
 2. Instala las dependencias:
   cd whatsapp-bot-app
