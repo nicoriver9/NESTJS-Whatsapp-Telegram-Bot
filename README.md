@@ -21,53 +21,47 @@
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+# WhatsApp Bot App
 
-## Description
+Esta es una aplicación de chatbot basada en WhatsApp desarrollada con Nest.js y la librería whatsapp-web.js. El bot permite interactuar con los usuarios a través de mensajes de WhatsApp y realizar acciones como enviar mensajes, recibir respuestas y realizar consultas a una base de datos.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Características
 
-## Installation
+- Generación dinámica de código QR para iniciar sesión en WhatsApp.
+- Envío y recepción de mensajes de WhatsApp.
+- Integración con una base de datos MySQL utilizando Sequelize.
+- Soporte para enviar mensajes a través de Telegram.
 
-```bash
-$ npm install
-```
+## Instalación
 
-## Running the app
+1. Clona el repositorio: git clone 
+  https://github.com/tu-usuario/whatsapp-bot-app.git
 
-```bash
-# development
-$ npm run start
+2. Instala las dependencias:
+  cd whatsapp-bot-app
+  npm install
 
-# watch mode
-$ npm run start:dev
+3. Configura la base de datos:
 
-# production mode
-$ npm run start:prod
-```
+- Crea una base de datos MySQL.
+- Copia el archivo `.env.example` y renómbralo a `.env`.
+- Edita el archivo `.env` y proporciona los valores de configuración de tu base de datos.
 
-## Test
+4. Inicia la aplicación:
+  npm start
 
-```bash
-# unit tests
-$ npm run test
+## Uso
 
-# e2e tests
-$ npm run test:e2e
+Una vez que la aplicación esté en funcionamiento, sigue estos pasos:
 
-# test coverage
-$ npm run test:cov
-```
+1. Abre tu navegador y ve a la URL [http://localhost:3000](http://localhost:3000).
+2. Escanea el código QR generado para iniciar sesión en WhatsApp.
+3. Comienza a enviar mensajes a través de WhatsApp y el bot responderá según la lógica de programación definida.
 
-## Support
+## Contribución
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Las contribuciones son bienvenidas. Si tienes alguna idea o mejora para la aplicación, por favor abre un issue o envía una pull request.
 
-## Stay in touch
+## Licencia
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+Esta aplicación está licenciada bajo [MIT License](https://opensource.org/licenses/MIT).
