@@ -21,6 +21,8 @@
 </p>
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+
+  
 # WhatsApp Bot App
 
 Esta es una aplicación de chatbot basada en WhatsApp desarrollada con Nest.js y la librería whatsapp-web.js. El bot permite interactuar con los usuarios a través de mensajes de WhatsApp y realizar acciones como enviar mensajes, recibir respuestas y realizar consultas a una base de datos.
